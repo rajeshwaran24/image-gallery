@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- fontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Image Gallery</title>
+</head>
+<body>
+
+    <div class="full-img" id="fullImgContainer">
+        <img src="./images/david-clode-EmrBdJ4G0CE-unsplash.jpg" alt="image" id="fullImg">
+        <span onclick="closeImg()">X</span>
+        <button id="prevBtn" onclick="prevImg()"><i class="fa-solid fa-chevron-left"></i></button>
+        <button id="nextBtn" onclick="nextImg()"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+
+    <div class="img-gallery">
+        <img src="./images/img-1.jpg" alt="image" onclick="openImg(this.src)">
+        <img src="./images/img-2.jpg" alt="image" onclick="openImg(this.src)">
+        <img src="./images/img-3.jpg" alt="image" onclick="openImg(this.src)">
+        <img src="./images/img-4.jpg" alt="image" onclick="openImg(this.src)">
+        <img src="./images/img-5.jpg" alt="image" onclick="openImg(this.src)">
+        <img src="./images/img-6.jpg" alt="image" onclick="openImg(this.src)">
+        <img src="./images/img-7.jpg" alt="image" onclick="openImg(this.src)">
+        <img src="./images/img-8.jpg" alt="image" onclick="openImg(this.src)">
+        <img src="./images/img-9.jpg" alt="image" onclick="openImg(this.src)">
+        <img src="./images/img-10.jpg" alt="image" onclick="openImg(this.src)">
+        <img src="./images/img-11.jpg" alt="image" onclick="openImg(this.src)">
+        <img src="./images/img-12.jpg" alt="image" onclick="openImg(this.src)">
+
+    
+    <script src="./SCRIPT/script.js"></script>
+</body>
+</html>
